@@ -1,7 +1,7 @@
 #![allow(non_snake_case)]
 #![feature(test)]
 #![deny(missing_docs)]
-#![feature(external_doc)]
+
 #![doc(include = "../README.md")]
 
 extern crate curve25519_dalek;
