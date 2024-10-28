@@ -10,21 +10,21 @@ extern crate merlin;
 extern crate rand;
 extern crate sha3;
 
-mod commitments;
-mod errors;
-mod group;
-mod random;
-mod transcript;
-mod math;
+pub mod commitments;
+pub mod errors;
+pub mod group;
+pub mod random;
+pub mod transcript;
+pub mod math;
 
-mod scalar;
-mod sigma_protocol;
-mod nizk;
-mod polynomial;
+pub mod scalar;
+pub mod sigma_protocol;
+pub mod nizk;
+pub mod polynomial;
 
 
 #[cfg(test)]
-mod tests {
+pub mod tests {
     #[test]
     fn it_works() {
         assert_eq!(2 + 2, 4);
